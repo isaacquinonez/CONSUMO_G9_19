@@ -1,0 +1,19 @@
+.fondoBanner{
+    background-image: url("./img/image3\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    height: 25rem;        
+    
+    
+}
+.subRallado:hover{
+    color:darkgray;
+     
+}
+.tipoLetra{
+    font-family: 'Libre Baskerville', serif;
+}
+.ico{
+     height: 5rem;
+}
+

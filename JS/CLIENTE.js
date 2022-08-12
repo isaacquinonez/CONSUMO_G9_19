@@ -56,7 +56,7 @@ function AgregarCliente(){
         type: 'POST',
         data: datosclientesjson,
         datatype: 'JSON',
-        contettype: 'aplication/json',
+        contenType: 'application/json',
         success: function(reponse){
             console.log(reponse);
             alert('Cliente agregado correctamente');

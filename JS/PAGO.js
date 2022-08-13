@@ -143,6 +143,7 @@ function EliminarPago(idpago){
         success: function(reponse){
             console.log(reponse);
             alert('El pago fue Eliminado con Éxito');
+            CargarPagos()
         },
         Error: function(textStatus, ErrorThrow){
             alert('ERROR, el Pago no pudo ser Eliminado'+ textStatus + ErrorThrow);
